@@ -14,3 +14,14 @@ _÷е зм≥ни з г≥лки **feature**._
 ƒемонстрац≥€ **for / while / doЕwhile / forЕin / forЕof**  
 та метод≥в масив≥в **forEach, map, filter**.  
 ‘айли: Lab5/index.html, Lab5/lab5.js (форк репозитор≥€ Ўаповалова).
+## Lab 6 Ч ћасиви та метод **map**  
+‘ункц≥€ **addTen(arr)** повертаЇ новий масив, у €кому вс≥ значенн€ зб≥льшен≥ на 10.  
+`js
+const res = addTen([1,2,3]); // > [11,12,13]
+
+
+Add-Content E:\github_java\java\README.md @"
+## Lab 6 Ч ћасиви та метод **map**
+‘ункц≥€ **addTen(arr)** повертаЇ новий масив, у €кому вс≥ значенн€ зб≥льшен≥ на 10.
+`js
+const res = addTen([1,2,3]); // > [11,12,13]
