@@ -25,3 +25,15 @@ Add-Content E:\github_java\java\README.md @"
 Функція **addTen(arr)** повертає новий масив, у якому всі значення збільшені на 10.
 `js
 const res = addTen([1,2,3]); // > [11,12,13]
+## Lab 7 — Методи масивів (some)
+Функція **hasNegative(arr)** повертає *true*, якщо в масиві є хоча б одне від’ємне число.
+
+```js
+hasNegative([1, -1, 2]); // true
+hasNegative([2, 4, 6]);  // false
+###############################################################
+# 6. фіксуємо та відправляємо Lab7
+###############################################################
+git add Lab7 README.md
+git commit -m "Lab7: array some() + опис у README"
+git push -u origin main
