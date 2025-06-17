@@ -1,0 +1,16 @@
+<!doctype html>
+<meta charset="utf-8">
+<h3>Lab 16 – forEach: чи всі числа парні?</h3>
+<input id="src" value="2,4,6" style="width:250px">
+<button id="btn">Перевірити</button>
+<pre id="out"></pre>
+<script type="module">
+  import { allEven } from "./lab16.js";
+  document.getElementById("btn").onclick = () => {
+    const arr = document.getElementById("src").value
+                 .split(",").map(x => Number(x.trim()))
+                 .filter(x => !Number.isNaN(x));
+    document.getElementById("out").textContent =
+      allEven(arr) ? "Усі числа парні ?" : "Є НЕпарне число ?";
+  };
+</script>
