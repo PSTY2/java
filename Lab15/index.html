@@ -1,0 +1,15 @@
+<!doctype html>
+<meta charset="utf-8">
+<h3>Lab 15 – Higher-Order Function + closure</h3>
+<button id="btn">Запустити демо</button>
+<pre id="out"></pre>
+<script type="module">
+  import { run, makeCounter } from './lab15.js';
+  document.getElementById('btn').onclick = () => {
+    const log = [];
+    log.push( run(n => n * n, 7) );        // 49
+    const inc = makeCounter();
+    log.push( inc(), inc(), inc() );       // 1 2 3
+    document.getElementById('out').textContent = log.join('\n');
+  };
+</script>
