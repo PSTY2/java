@@ -37,3 +37,7 @@ hasNegative([2, 4, 6]);  // false
 git add Lab7 README.md
 git commit -m "Lab7: array some() + опис у README"
 git push -u origin main
+## Lab 10 Ц ќб?Їкти (без метод≥в)  
+‘айл **Lab10/lab10.js** демонструЇ:
+1. створенн€ об?Їкта ook з?властивост€ми *title*, *author*, *year*;
+2. переб≥р ус≥х властивостей циклом **forЕin** та вив≥д њх у консоль.
