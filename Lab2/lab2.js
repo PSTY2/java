@@ -10,7 +10,7 @@ console.log(typeof n3);
 
 //3
 let student = {
-    name: "Michail",
+    name: "Pavlo",
     age: 18,
     st: true
 };
