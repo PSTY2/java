@@ -1,0 +1,15 @@
+<!doctype html>
+<meta charset="utf-8">
+<h3>Lab 20 – ключове слово <code>this</code> у класі</h3>
+<input id="name" placeholder="Ваше ім’я">
+<button id="btn">Створити Person</button>
+<pre id="out"></pre>
+<script type="module">
+ import { Person } from "./lab20.js";
+ document.getElementById("btn").onclick = () => {
+   const n = document.getElementById("name").value.trim() || "Анонім";
+   const p = new Person(n);
+   p.greet();
+   document.getElementById("out").textContent = JSON.stringify(p, null, 2);
+ };
+</script>
