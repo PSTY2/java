@@ -64,3 +64,6 @@ stringToChars('ABC');   // > ['A','B','C']
 
 ## Lab 18 Ц filter
 ‘ункц≥€ **unique(arr)** прибираЇ дубл≥кати з масиву методом ilter().
+
+## Lab 19 Ц reduce
+‘ункц≥€ **frequencyMap(arr)** повертаЇ обТЇкт {значенн€: к≥льк≥сть}, використовуючи метод educe().

@@ -1,0 +1,17 @@
+<!doctype html>
+<meta charset="utf-8">
+<h3>Lab 19 – reduce: об’єкт частот елементів</h3>
+<textarea id="src" rows="4" cols="50">
+apple banana apple kiwi banana apple orange
+</textarea><br>
+<button id="btn">Створити об’єкт частот</button>
+<pre id="out"></pre>
+<script type="module">
+ import { frequencyMap } from "./lab19.js";
+ document.getElementById("btn").onclick = () => {
+   const arr = document.getElementById("src").value
+                .split(/\s+/).map(x => x.trim()).filter(Boolean);
+   document.getElementById("out").textContent =
+     JSON.stringify(frequencyMap(arr), null, 2);
+ };
+</script>
