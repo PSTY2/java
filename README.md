@@ -61,3 +61,6 @@ stringToChars('ABC');   // > ['A','B','C']
 
 ## Lab 17 Ц map
 ‘ункц≥€ **extractDomains(emails)** повертаЇ масив домен≥в ≥з переданого списку email-адрес.
+
+## Lab 18 Ц filter
+‘ункц≥€ **unique(arr)** прибираЇ дубл≥кати з масиву методом ilter().
