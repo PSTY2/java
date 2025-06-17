@@ -1,0 +1,20 @@
+<!doctype html>
+<meta charset="utf-8">
+<h3>Lab 21 – Administrator extends User</h3>
+<input id="admin" value="root">
+<textarea id="users" rows="4" cols="40">alice bob carol</textarea>
+<input id="target" value="bob">
+<button id="run">Delete</button>
+<pre id="out"></pre>
+<script type="module">
+ import { Administrator } from "./lab21.js";
+ import * as J from "./lab21.js";
+ document.getElementById("run").onclick = () => {
+   const users = document.getElementById("users").value
+                 .split(/\s+/).filter(Boolean)
+                 .map(l => new J.User(l));
+   new Administrator(document.getElementById("admin").value)
+       .deleteUser(users, document.getElementById("target").value);
+   out.textContent = JSON.stringify(users.map(u => u.login));
+ };
+</script>

@@ -70,3 +70,6 @@ stringToChars('ABC');   // > ['A','B','C']
 
 ## Lab 20 Ц this
  лас **Person** демонструЇ використанн€ ключового слова 	his у метод≥ **greet()**.
+
+## Lab 21 Ц прототипи та класи
+ лас **Administrator** успадковуЇ **User** ≥ додаЇ метод **deleteUser()**.
