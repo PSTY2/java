@@ -1,0 +1,21 @@
+<!doctype html>
+<meta charset="utf-8">
+<h3>Lab 17 Ц map: вит€гуЇмо домени з email-адрес</h3>
+<textarea id="src" rows="5" cols="40">
+alice@gmail.com
+bob@ukr.net
+carol@company.org
+</textarea><br>
+<button id="btn">ќтримати домени</button>
+<pre id="out"></pre>
+<script type="module">
+  import { extractDomains } from "./lab17.js";
+  document.getElementById("btn").onclick = () => {
+    const emails = document.getElementById("src").value
+                     .split(/[\n,]+/)
+                     .map(s => s.trim())
+                     .filter(Boolean);
+    document.getElementById("out").textContent =
+      JSON.stringify(extractDomains(emails), null, 2);
+  };
+</script>

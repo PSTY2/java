@@ -58,3 +58,6 @@ stringToChars('ABC');   // > ['A','B','C']
 
 ## Lab 16 Ц forEach
 ‘ункц≥€ **allEven(arr)** перев≥р€Ї, чи вс≥ елементи масиву парн≥, використовуючи лише orEach.
+
+## Lab 17 Ц map
+‘ункц≥€ **extractDomains(emails)** повертаЇ масив домен≥в ≥з переданого списку email-адрес.
